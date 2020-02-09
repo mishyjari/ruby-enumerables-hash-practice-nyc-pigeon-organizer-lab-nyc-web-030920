@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     data.reduce({}) do | key |  end
   end
   
-  data.each_value do | trait |
+ # data.each_value do | trait |
     
     trait.reduce({}) do | key, (label, value)|
       value.each { | name | output[name] = data_keys }
