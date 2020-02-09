@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   
   data.reduce({}) do | memo, (key, value) |
     value.reduce({}) do | mem, (k, val)|
-      val.each { |name| output[name] = { key.each { key = k } } }
+      val.each { |name| output[name] = { key.each { key } } }
     end
   end
   
